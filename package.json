@@ -1,0 +1,25 @@
+{
+  "name": "wechat-cryptor",
+  "version": "0.0.1",
+  "description": "Wechat cryptor service.",
+  "main": "index.js",
+  "devDependencies": {
+    "babel": "^5.8.20",
+    "chai": "^3.2.0"
+  },
+  "scripts": {
+    "compile": "babel --modules common -d lib/ src/",
+    "compile-test": "babel --modules common -d test/ spec/",
+    "build": "npm run clean && npm run compile && npm run compile-test",
+    "clean": "rm -rf lib test",
+    "test": "mocha test/*.test.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "wechat"
+  ],
+  "author": "lynweklm@gmail.com",
+  "license": "MIT"
+}
