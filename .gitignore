@@ -1,4 +1,3 @@
-lib/
 *.log
 test/
 node_modules/
