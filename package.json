@@ -21,5 +21,13 @@
     "wechat"
   ],
   "author": "lynweklm@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brooooooklyn/wechat-cryptor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Brooooooklyn/wechat-cryptor/issues"
+  },
+  "homepage": "https://github.com/Brooooooklyn/wechat-cryptor#readme"
 }
