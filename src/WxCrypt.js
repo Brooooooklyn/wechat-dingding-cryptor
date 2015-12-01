@@ -1,4 +1,4 @@
-import ErrorCode from './ErrorCode';
+import ErrorCode from './errorcode';
 import pkcs7Encoder from './pkcs7Encoder';
 import crypto from 'crypto';
 
